@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  LJPayViewDemo
+//
+//  Created by 罗金 on 16/4/1.
+//  Copyright © 2016年 EasyFlower. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define iOS7  [[[UIDevice currentDevice]systemVersion] doubleValue]>=7.0
+
+
+#define WIDTH  [[UIScreen mainScreen]bounds].size.width
+
+#define HEIGHT [[UIScreen mainScreen]bounds].size.height
+
+
+#define CLColor(r,g,b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1.0f]
+#define BOUNDS   [[UIScreen mainScreen] bounds]
+
+#define ShortColor  CLColor(232.0f, 232.0f, 232.0f)
+#define longColor  CLColor(221.0f, 221.0f, 221.0f)
+#define borColor  CLColor(204.0f, 204.0f, 204.0f)
+#define btnBackColor CLColor(252.0f, 252.0f, 252.0f)
+#define titleColor  CLColor(240.0f, 130.0f, 0.0f)
+#define backColor CLColor(243.0f, 244.0f, 245.0f)
+#define titColor CLColor(254.f, 235.f, 207.f)
+
+#import <Masonry.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
